@@ -403,7 +403,7 @@ button {
 
 /* con2 */
 .con2 {
-  padding: 50px 0;
+  padding: 70px 0;
   position: relative;
 }
 .con2_title {
@@ -494,7 +494,7 @@ button {
 
 /* recommond */
 .recommond{
-  padding: 30px 0;
+  padding: 70px 0;
 }
 .recommond .title{
   margin-bottom: 30px;
@@ -504,14 +504,14 @@ button {
   justify-content: space-around;
 }
 .recommend_left{
-  width: 50%;
+  width: 40%;
 }
 .recommend_left img{
   width: 300px;
   border-radius: 10px;
 } 
 .links{
-  width: 60%;
+  width: 75%;
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
@@ -523,7 +523,7 @@ button {
   color: #fff;
 }
 .recommond_right{
-  width: 50%;
+  width: 60%;
 }
 .recommond_right > p{
   display: inline;
@@ -588,7 +588,7 @@ button {
   padding: 50px 0;
 }
 .con3_contents {
-  margin-top: 30px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
