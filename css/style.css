@@ -372,7 +372,7 @@ button {
   background-size: 100%;
 }
 .poster4-1 {
-  background: url(../imgs/86876_320.jpg) no-repeat;
+  background: url(../imgs/86797_320.jpg) no-repeat;
   background-size: 100%;
 }
 .poster5-1 {
@@ -493,6 +493,9 @@ button {
 
 
 /* recommond */
+.recommond{
+  padding: 30px 0;
+}
 .recommond .title{
   margin-bottom: 30px;
 }
@@ -521,21 +524,18 @@ button {
 }
 .recommond_right{
   width: 50%;
-  box-sizing: border-box;
 }
 .recommond_right > p{
+  display: inline;
   font-size: 30px;
   font-weight: bold;
 }
-.recommond_info{
-  padding: 30px 0;
+.info{
+  margin: 30px 0;
 }
-.recommond_info p:first-child{ 
-  font-size: 18px;
-}
-.recommond_info p:nth-of-type(2){
-  font-size: 16px;
-  margin-bottom: 30px;
+.recommond_info p{
+  font-size: 1.1em;
+  margin: 20px 0;
 }
 .info{
   display: flex;
@@ -547,7 +547,7 @@ button {
 }
 .character{
   padding: 30px 0;
-  font-size: 18px;
+  font-size: 1em;
 }
 .character_wrap{ 
   display: flex;
@@ -696,11 +696,7 @@ button {
 /* con4 */
 .con4{
   padding: 70px 0;
-}
-.con4 > .wrap {
-  display: flex;
-  justify-content: space-between;
-}
+} 
 .con4 .title{
   font-size: 26px;
   color: #000;
@@ -708,6 +704,10 @@ button {
   cursor: pointer;
   font-weight: bold;
   margin-bottom: 20px;
+}
+.con4_box_wrap{
+  display: flex;
+  justify-content: space-between;
 }
 .con4_box {
   width: 310px;
