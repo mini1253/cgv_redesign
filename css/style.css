@@ -109,7 +109,7 @@ button {
   color: #fff;
   z-index: 5;
 }
-.title_box > p:nth-child(1) {
+.title_box > h1 {
   font-size: 38px;
   font-weight: bold;
   text-shadow: 3px 3px 5px #000;
@@ -518,14 +518,14 @@ button {
 }
 .links > a{
   padding: 7px 15px;
-  background: pink;
+  background: rgb(255, 161, 177);
   border-radius: 5px;
   color: #fff;
 }
 .recommond_right{
   width: 60%;
 }
-.recommond_right > p{
+.recommond_right > h3{
   display: inline;
   font-size: 30px;
   font-weight: bold;
